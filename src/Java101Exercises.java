@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -28,7 +30,8 @@ public class Java101Exercises {
      */
     public static int addInts001(int a, int b) {
         // TODO: Write code here
-        return 0;
+        int sum = a + b;
+        return sum;
     }
 
     /**
@@ -43,7 +46,7 @@ public class Java101Exercises {
      */
     public static String sayHello002(String name) {
         // TODO: Write code here
-        return null;
+        return ("Hello " + name + "!");
     }
 
     /**
@@ -68,10 +71,21 @@ public class Java101Exercises {
      *
      * @return      A String array with an asterisks drawing of CODEUP
      */
-    public static String[] sayCodeup003() {
-        // TODO: Write code here
-        return null;
-    }
+//    public static String[] sayCodeup003() {
+//        // TODO: Write code here
+//        String[] codeup = sayCodeup003();
+//        assert codeup != null;
+//        codeup[0] = "     *             * * * * *                 * *             * * * * * * *          * * * * * * * *     *                 *      * * * * * *\n";
+//        codeup[1]= "     *           *           *            *       *          *             *        *                   *                 *      *           *\n";
+//        codeup[2]= "     *         *               *       *             *       *              *       *                   *                 *      *            *\n";
+//        codeup[3]= "     *       *                        *               *      *               *      *                   *                 *      *           *\n";
+//        codeup[4]= "     *       *                        *               *      *               *      * * * * * * *       *                 *      * * * * * *\n";
+//        codeup[5]= "     *       *                        *               *      *               *      *                   *                 *      *\n";
+//        codeup[6]= "     *         *               *       *             *       *              *       *                    *               *       *\n";
+//        codeup[7]= "     *           *           *            *       *          *             *        *                       *         *          *\n";
+//        codeup[8]= "     *             * * * * *                 * *             * * * * * * *          * * * * * * * *            * * *             *\n";
+//        return null;
+//    }
 
     /**
      * Exercise 004 - Add doubles
